@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    background-color: rgb(222, 166, 226);
+    overflow: hidden;
+}
+nav {
+    background-color: black;
+    height: 80px;
+    position: relative;
+}
+
+
+.container-logo{
+    margin-left: 20px;
+    z-index: 100;
+    cursor: pointer;
+
+}
+.container-logo h2 {
+    color: rgb(173, 208, 238);
+    font-weight: 300;
+    font-size: 35px;
+    letter-spacing: 2px;
+}
+
+.container-logo h2 span {
+    color: rgb(125, 86, 164);
+    font-weight: 700;
+}
+.links .link{
+    display: inline-block;
+}
+
+.links .link a{
+    text-decoration: none;
+    color:  rgb(125, 86, 164);
+    font-size: 20px;
+    margin:  0 25px;
+    letter-spacing: 3px;
+    transition: .3s;
+}
+
+.links .link a:hover{
+    color: brown;
+}
+
+.toggle{
+    color: antiquewhite;
+    margin-right: 20px;
+    font-size: 30px;
+    transform: rotate(90deg);
+    cursor: pointer;
+    transition: .3s;
+    display: none;
+}
+.rotate{
+    transform: rotate(180deg);
+}
+@media screen and (max-width: 800px){
+    .toggle{
+         display: inline-block;
+}
+
+    .links .link:hover{
+        background-color: rgb(163, 89, 155);
+    }
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: #333;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    height: 12vh;
+    background-color: #020000;
+}
+
+/* Navbar links */
+.navbar h1 {
+    float: right;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+    
+}
+.ver-carrito {
+    font-size: 25px;
+    margin-right: 40px;
+    margin-top: 3.5vh;
+    cursor: pointer;
+    margin: 5px;
+}
+.product-title {
+    text-align: center;
+    margin-top: 0px;
+    padding-top: 20px;
+    font-size: 36px;
+}
+
+#shop-area {
+    background-image: url(https://cuidamostumascota.cl/wp-content/uploads/2023/08/HEADER-min-1.png);
+    height: 90vh;
+}
+.itemCount span{
+    color: black;
+    padding: 1rem;
+}

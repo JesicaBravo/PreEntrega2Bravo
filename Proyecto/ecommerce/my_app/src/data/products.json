@@ -1,0 +1,34 @@
+[
+    {
+      "id": "1",
+      "name": "Comida seca para gatos",
+      "stock": "Una deliciosa mezcla de croquetas crujientes para gatos de todas las edades. Contiene proteínas de alta calidad y nutrientes esenciales para mantener a tu gato saludable y activo.",
+      "price": 15.99,
+      "category": "Comida seca",
+      "avatar": "cat_dry_food.jpg"
+    },
+    {
+      "id": "2",
+      "name": "Comida húmeda premium para gatos",
+      "stock": "Una selección de sabrosos patés y trozos de carne en salsa. Perfecto para gatos mimados que buscan una comida húmeda de alta calidad.",
+      "price": 2.99,
+      "category": "Comida húmeda",
+      "avatar": "cat_wet_food.jpg"
+    },
+    {
+      "id": "3",
+      "name": "Snacks para gatos",
+      "stock": "Pequeños bocadillos crujientes llenos de sabor. Ideal para entrenar a tu gato o simplemente como un premio ocasional.",
+      "price": 4.49,
+      "category": "Snacks",
+      "avatar": "cat_snacks.jpg"
+    },
+    {
+      "id": "4",
+      "name": "Comida especial para gatos con alergias",
+      "stock": "Una fórmula cuidadosamente diseñada para gatos con alergias alimentarias. Sin ingredientes comunes que causen reacciones alérgicas.",
+      "price": 19.99,
+      "category": "Comida seca",
+      "avatar": "cat_special_food.jpg"
+    }
+  ]
